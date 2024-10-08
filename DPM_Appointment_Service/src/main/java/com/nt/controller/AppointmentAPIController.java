@@ -36,7 +36,7 @@ public class AppointmentAPIController {
 		return new ResponseEntity<>(resultMsg,HttpStatus.OK);
 	}
 	
-	@GetMapping("/appointment/{pid}")
+	@GetMapping("/appointment/{aid}")
 	public ResponseEntity<AppointmentDTO> getAppointmentById(@PathVariable("aid") Long appointmentId)throws ResourceNotFoundException{
 		AppointmentDTO adetails = appointmetService.getAppointDetailsById(appointmentId);
 		return new ResponseEntity<>(adetails,HttpStatus.OK);
