@@ -1,7 +1,7 @@
-> Project Title
+--Project Title
    DoctorPatientAppointmentApp_Microservice
 
-> Project Description
+--Project Description
   Number of Services - 7
   1)Eureka server - Service Registration and Discovery. All the other services except Admin server and Config Server
                     are the clients of eureka server, runs on default port localhost:8761
@@ -24,12 +24,12 @@
                           here i used client component feign client for intra communication between microservices
                           while booking appointment we need doctor and patient details for that we need to make rest call.
 
-> Tools Used for Development
+--Tools Used for Development
      Java 17, Spring Boot 3, Oracle database, Eureka Discovery Server,
      Eureka Client, Admin Server, Admin Client, Spring Cloud API Gateway,
      Swagger, Postman, GitHub, GitLab
 
-> API Gateway Endpoints
+--API Gateway Endpoints
   1) Doctor Service -
      Doctors Operatins
      POST http://localhost:7777/doctorClinic-api/create-doctor
