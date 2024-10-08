@@ -27,7 +27,7 @@
 --Tools Used for Development
      Java 17, Spring Boot 3, Oracle database, Eureka Discovery Server,
      Eureka Client, Admin Server, Admin Client, Spring Cloud API Gateway,
-     Swagger, Postman, GitHub, GitLab
+     Swagger, Postman, Maven, GitHub, GitLab
 
 --API Gateway Endpoints
   1) Doctor Service -
